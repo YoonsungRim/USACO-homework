@@ -39,7 +39,7 @@ def solve():
                                     elif i == j:
                                         pass
                             
-                            if dieCwin > dieAwin:
+                            if dieAwin > dieCwin:
                                 dieBwin=0
                                 dieCwin=0
                                 for i in ListC:
