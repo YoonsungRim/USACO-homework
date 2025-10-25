@@ -5,10 +5,10 @@ def solve():
     input = sys.stdin.readline
     N= int(input())
 
-    H = input().strip() # MOOOOO
-    I = input().strip() # OOOOOO
-    J = input().strip() # ABCDEF
-    K = input().strip()  # UVWXYZ
+    H = input() # MOOOOO
+    I = input() # OOOOOO
+    J = input() # ABCDEF
+    K = input() # UVWXYZ
     for _ in range(N): # COW,MOO,CODE ...
         T=list(input()) #[C,O,W]
         a=list(itertools.permutations([H,I,J,K],len(T)))
@@ -28,4 +28,4 @@ def solve():
                 break
         if not found:
             print('No')
-                  
+#
