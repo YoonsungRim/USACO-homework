@@ -1,0 +1,21 @@
+# Solution
+testcase=int(input())
+for _ in range(testcase):
+    firstinput = list(map(int, input().split()))
+    row=int(firstinput[0])
+    toRight=int(firstinput[1])
+    toDown =int(firstinput[2])
+    list=[]
+    ans=0
+    for _ in range(row):
+        list.append(input())#사진 겹친거 입력 다 받음
+    
+    for i in list:
+        for j in i:
+            if list[i][j]=='B':
+                ans+=1
+            elif list[i][j]=='G':
+                if list[i+toRight][j+toDown]=='G' or 'B':
+                    ans+=1
+                elif list[i+toRight][j+toDown]=='W':
+                    ans+=1
