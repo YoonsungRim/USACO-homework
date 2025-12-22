@@ -1,0 +1,5 @@
+Basic Complete Search
+
+많은 Bronze 문제들은 대부분 주어진 모든 가능한 경우를 해결하는것으로 충분하다. 가능한 모든 cases를 모두 확인하는것을 complete search (brute force)라고 한다.
+Permutation
+Permutation(순열)이란 elements들을 재배열 한것이다. 어떠한 문제에서 특정 조건을 만족하는 elements들의 순서를 요구한다면 permutation을 하고, 또 유효한지 확인하기 위해 (N*N!)만큼의 시간이 필요하다.
